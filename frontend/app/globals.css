@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-body transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-paper-dark text-ink-inverted;
+}
+
+::selection {
+  background: #e2a76f;
+  color: #232019;
+}
+
+/* Subtle grain / paper texture overlay */
+.sm-texture {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: radial-gradient(circle, #232019 1px, transparent 1px);
+  background-size: 18px 18px;
+  z-index: 0;
+}
+
+.sm-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.sm-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(31, 77, 61, 0.35);
+  border-radius: 999px;
+}
