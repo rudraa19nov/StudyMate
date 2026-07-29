@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="flex items-start justify-between gap-4">
         <div>
           <span className="inline-block rounded-full border border-amber-500/30 bg-amber-100/60 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-amber-600 dark:border-amber-300/30 dark:bg-white/10 dark:text-amber-200">
-            ✨ AI-Powered Study Tool
+            AI-Powered Study Tool
           </span>
           <h1 className="mt-3 font-display text-4xl font-bold italic text-forest-700 dark:text-amber-100 sm:text-5xl">
             StudyMate

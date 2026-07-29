@@ -42,7 +42,7 @@ export default function AskCard({ kbReady, notify }) {
     <div className="space-y-4">
       <div className="rounded-xl2 border border-forest-600/10 bg-paper-soft p-6 shadow-card dark:border-white/10 dark:bg-white/5">
         <h3 className="font-display text-lg font-semibold text-forest-700 dark:text-amber-100">
-          💬 Step 3 — Ask StudyMate anything
+          Step 3 — Ask StudyMate anything
         </h3>
         <form onSubmit={handleAsk} className="mt-4 flex flex-col gap-3 sm:flex-row">
           <input
@@ -56,7 +56,7 @@ export default function AskCard({ kbReady, notify }) {
             disabled={asking || !kbReady}
             className="shrink-0 rounded-lg bg-gradient-to-r from-amber-500 to-amber-300 px-5 py-2.5 text-sm font-bold text-ink shadow-soft transition hover:-translate-y-0.5 disabled:opacity-60"
           >
-            {asking ? "🤔 Thinking…" : "Ask"}
+            {asking ? " Thinking…" : "Ask"}
           </button>
         </form>
         {!kbReady && (
@@ -70,7 +70,7 @@ export default function AskCard({ kbReady, notify }) {
         <div className="rounded-xl2 border border-forest-600/10 bg-paper-soft p-6 shadow-card dark:border-white/10 dark:bg-white/5">
           <div className="flex items-center justify-between">
             <h4 className="font-display text-sm font-semibold uppercase tracking-wide text-ink-muted dark:text-amber-100/50">
-              🕐 Conversation timeline
+               Conversation timeline
             </h4>
             <button
               onClick={() => setHistory([])}

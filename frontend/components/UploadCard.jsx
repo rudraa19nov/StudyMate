@@ -82,7 +82,7 @@ export default function UploadCard({ onUploaded, onBuilt, notify }) {
       <div className="rounded-xl2 border border-forest-600/10 bg-paper-soft p-6 shadow-card dark:border-white/10 dark:bg-white/5 sm:p-8">
         <div className="flex items-center justify-between">
           <h3 className="font-display text-lg font-semibold text-forest-700 dark:text-amber-100">
-            📤 Step 1 — Upload your document
+            Step 1 — Upload your document
           </h3>
           {(uploadedMeta || file) && !uploading && (
             <button
@@ -194,7 +194,7 @@ export default function UploadCard({ onUploaded, onBuilt, notify }) {
       {uploadedMeta && (
         <div className="rounded-xl2 border border-forest-600/10 bg-paper-soft p-6 shadow-card dark:border-white/10 dark:bg-white/5">
           <h3 className="font-display text-lg font-semibold text-forest-700 dark:text-amber-100">
-            🧠 Step 2 — Build your knowledge base
+            Step 2 — Build your knowledge base
           </h3>
           <p className="mt-1 text-sm text-ink-muted dark:text-amber-100/60">
             This chunks the document and embeds it into a searchable vector database.

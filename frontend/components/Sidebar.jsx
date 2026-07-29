@@ -10,7 +10,7 @@ export default function Sidebar({ status }) {
   return (
     <aside className="w-full shrink-0 rounded-xl2 border border-forest-600/10 bg-paper-soft p-6 shadow-card dark:border-white/10 dark:bg-white/5 lg:sticky lg:top-6 lg:w-72">
       <div className="flex items-center gap-2">
-        <span className="text-2xl">🪄</span>
+        {/* <span className="text-2xl">🪄</span> */}
         <h2 className="font-display text-xl font-semibold text-forest-700 dark:text-amber-100">
           StudyMate
         </h2>
